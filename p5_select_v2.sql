@@ -5,5 +5,5 @@ FROM order_details;
 
 SELECT 
 *, 
-DivFirstBySecondv2(quantity, 3) div_by_3
+DivFirstBySecondv2(quantity, 3.14) div_by_pi
 FROM order_details

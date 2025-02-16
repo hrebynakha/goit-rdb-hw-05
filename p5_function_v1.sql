@@ -5,7 +5,7 @@ RETURNS FLOAT
 DETERMINISTIC 
 NO SQL
 BEGIN
-    DECLARE result INT;
+    DECLARE result FLOAT;
     SET result = first_num / second_num;
     RETURN result;
 END //
